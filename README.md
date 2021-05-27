@@ -2,29 +2,19 @@
 
 
 ## How to import LoCCAM?
-#### 1. Include in the `gradle.project`'s `repositories` section:
 
-```maven { url "https://jitpack.io" }```
-
-Example:
-```
+Add it to your build.gradle with:
+```gradle
 allprojects {
     repositories {
-        ...
         maven { url "https://jitpack.io" }
     }
 }
 ```
+and:
 
-#### 2. Include in the `gradle.app`'s `dependencies` section:
-
-```implementation 'com.github.makleyston-ufc.PMS:pms:v0.3'```
-
-Example:
-```
+```gradle
 dependencies {
-    ...
-    implementation 'com.github.great-ufc:loccam:0.0.2'
+    compile 'com.github.great-ufc:loccam:{latest version}'
 }
-
 ```
