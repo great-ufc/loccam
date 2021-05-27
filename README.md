@@ -1,5 +1,6 @@
 # LoCCAM Public Repository
 
+[![Release](https://jitpack.io/v/jitpack/android-example.svg)](https://jitpack.io/#great-ufc/loccam)
 
 ## How to import LoCCAM?
 
